@@ -1,20 +1,19 @@
+p {
+	color: blue;
+	width: 700px;
+    margin: 50 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+p span {
+	background-color: #448b14;
+	padding: 5px;
+}
+#add-skill  {
+	border: solid thin #153003;
+	color: black;
+}
 body {
     display: grid;
     justify-content: center;
 }
-ul {
-    list-style: none;
-}
-
-header {
-    font-family: Arial, Helvetica, sans-serif
-    Color green;
-    background-origin: padding-box;
-    border-top: 10px solid green,
-
-    
-}
-#button {
-    width: 50px;
-    color: aquamarine;
-};

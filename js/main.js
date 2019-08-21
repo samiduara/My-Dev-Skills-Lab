@@ -3,6 +3,6 @@ $('#addSkill').on('click', function(evt) {
     ))
    });
 
-   $('#addHome').on('click', function(evt) {
-    console.log(evt);
-  });
+  $('#addHome').on('click', function(evt) {
+  console.log(evt);
+});
