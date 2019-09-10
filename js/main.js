@@ -1,8 +1,10 @@
 $('#addSkill').on('click', function(evt) {
-    $('ul').append($('<li><button class="removeSkill">X</button>' + $('#newSkill').val() + '</li>'
-    ))
-   });
+  $('ul').append($('<li><button class="removeSkill">X</button>' + $('#newSkill').val() + '</li>'
+  ))
+});
 
-  $('#addHome').on('click', function(evt) {
-  console.log(evt);
+$('ul').on('click', 'button', function() {
+  $(this).closest('li').fadeOut(250, function(){
+    $(this).remove();
+  });
 });
